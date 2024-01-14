@@ -62,10 +62,10 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Asso Research Scientist
+        - title: Associate Research Scientist
           company: Northeastern University
           company_url: 'https://northeastern.edu'
-          company_logo: org-N
+          company_logo: logo-NEU
           location: Boston, MA
           date_start: '2023-01-28'
           date_end: ''
@@ -77,7 +77,7 @@ sections:
         - title: Postdocal Research 
           company: MIT
           company_url: 'https://mit.edu'
-          company_logo: org-M
+          company_logo: logo-MIT
           location: Cambridge, MA
           date_start: '2020-01-28'
           date_end: '2023-01-27'
