@@ -65,7 +65,7 @@ sections:
         - title: Asso Research Scientist
           company: Northeastern University
           company_url: 'https://northeastern.edu'
-          company_logo: org-NEU
+          company_logo: org-N
           location: Boston, MA
           date_start: '2023-01-28'
           date_end: ''
@@ -77,7 +77,7 @@ sections:
         - title: Postdocal Research 
           company: MIT
           company_url: 'https://mit.edu'
-          company_logo: org-MIT
+          company_logo: org-M
           location: Cambridge, MA
           date_start: '2020-01-28'
           date_end: '2023-01-27'
