@@ -62,30 +62,30 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Asso Research Scientist
+          company: Northeastern University
+          company_url: 'https://northeastern.edu'
+          company_logo: org-NEU
+          location: Boston, MA
+          date_start: '2023-01-28'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * All-solid-state battery modeling
+              * Scientific machine learning 
+        - title: Postdocal Research 
+          company: MIT
+          company_url: 'https://mit.edu'
+          company_logo: org-MIT
+          location: Cambridge, MA
+          date_start: '2020-01-28'
+          date_end: '2023-01-27'
+          description: Mechanical testing & modeling of Li-ion batteries.
     design:
       columns: '2'
   - block: accomplishments
+    demo: true
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
@@ -155,6 +155,7 @@ sections:
       view: compact
       columns: '2'
   - block: portfolio
+    demo: true
     id: projects
     content:
       title: Projects
@@ -182,6 +183,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: markdown
+    demo: true
     content:
       title: Gallery
       subtitle: ''
@@ -190,6 +192,7 @@ sections:
     design:
       columns: '1'
   - block: collection
+    demo: true
     id: featured
     content:
       title: Featured Publications
@@ -215,6 +218,7 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    demo: true
     id: talks
     content:
       title: Recent & Upcoming Talks
@@ -230,6 +234,7 @@ sections:
     design:
       columns: '2'
   - block: contact
+    demo: true
     id: contact
     content:
       title: Contact
